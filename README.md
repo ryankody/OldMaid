@@ -1,2 +1,1 @@
-# old-maiden
-old-maiden in c++
+Old Maiden C++ Implementation

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ryan/old-maiden
+CMAKE_SOURCE_DIR = /home/tsnyder/oop/old-maiden
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ryan/old-maiden/build
+CMAKE_BINARY_DIR = /home/tsnyder/oop/old-maiden/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ryan/old-maiden/build/CMakeFiles /home/ryan/old-maiden/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsnyder/oop/old-maiden/build/CMakeFiles /home/tsnyder/oop/old-maiden/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ryan/old-maiden/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tsnyder/oop/old-maiden/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named war
+# Target rules for targets named old
 
 # Build rule for target.
-war: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 war
-.PHONY : war
+old: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 old
+.PHONY : old
 
 # fast build rule for target.
-war/fast:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/build
-.PHONY : war/fast
+old/fast:
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/build
+.PHONY : old/fast
 
 card.o: card.cpp.o
 
@@ -129,7 +129,7 @@ card.o: card.cpp.o
 
 # target to build an object file
 card.cpp.o:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/card.cpp.o
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/card.cpp.o
 .PHONY : card.cpp.o
 
 card.i: card.cpp.i
@@ -138,7 +138,7 @@ card.i: card.cpp.i
 
 # target to preprocess a source file
 card.cpp.i:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/card.cpp.i
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/card.cpp.i
 .PHONY : card.cpp.i
 
 card.s: card.cpp.s
@@ -147,7 +147,7 @@ card.s: card.cpp.s
 
 # target to generate assembly for a file
 card.cpp.s:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/card.cpp.s
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/card.cpp.s
 .PHONY : card.cpp.s
 
 deck.o: deck.cpp.o
@@ -156,7 +156,7 @@ deck.o: deck.cpp.o
 
 # target to build an object file
 deck.cpp.o:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/deck.cpp.o
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/deck.cpp.o
 .PHONY : deck.cpp.o
 
 deck.i: deck.cpp.i
@@ -165,7 +165,7 @@ deck.i: deck.cpp.i
 
 # target to preprocess a source file
 deck.cpp.i:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/deck.cpp.i
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/deck.cpp.i
 .PHONY : deck.cpp.i
 
 deck.s: deck.cpp.s
@@ -174,7 +174,7 @@ deck.s: deck.cpp.s
 
 # target to generate assembly for a file
 deck.cpp.s:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/deck.cpp.s
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/deck.cpp.s
 .PHONY : deck.cpp.s
 
 main.o: main.cpp.o
@@ -183,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -192,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,7 +201,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 player.o: player.cpp.o
@@ -210,7 +210,7 @@ player.o: player.cpp.o
 
 # target to build an object file
 player.cpp.o:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/player.cpp.o
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/player.cpp.o
 .PHONY : player.cpp.o
 
 player.i: player.cpp.i
@@ -219,7 +219,7 @@ player.i: player.cpp.i
 
 # target to preprocess a source file
 player.cpp.i:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/player.cpp.i
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/player.cpp.i
 .PHONY : player.cpp.i
 
 player.s: player.cpp.s
@@ -228,7 +228,7 @@ player.s: player.cpp.s
 
 # target to generate assembly for a file
 player.cpp.s:
-	$(MAKE) -f CMakeFiles/war.dir/build.make CMakeFiles/war.dir/player.cpp.s
+	$(MAKE) -f CMakeFiles/old.dir/build.make CMakeFiles/old.dir/player.cpp.s
 .PHONY : player.cpp.s
 
 # Help Target
@@ -239,7 +239,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... war"
+	@echo "... old"
 	@echo "... card.o"
 	@echo "... card.i"
 	@echo "... card.s"

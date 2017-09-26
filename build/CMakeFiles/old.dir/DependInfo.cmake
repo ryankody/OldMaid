@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ryan/old-maiden/card.cpp" "/home/ryan/old-maiden/build/CMakeFiles/war.dir/card.cpp.o"
-  "/home/ryan/old-maiden/deck.cpp" "/home/ryan/old-maiden/build/CMakeFiles/war.dir/deck.cpp.o"
-  "/home/ryan/old-maiden/main.cpp" "/home/ryan/old-maiden/build/CMakeFiles/war.dir/main.cpp.o"
-  "/home/ryan/old-maiden/player.cpp" "/home/ryan/old-maiden/build/CMakeFiles/war.dir/player.cpp.o"
+  "/home/tsnyder/oop/old-maiden/card.cpp" "/home/tsnyder/oop/old-maiden/build/CMakeFiles/old.dir/card.cpp.o"
+  "/home/tsnyder/oop/old-maiden/deck.cpp" "/home/tsnyder/oop/old-maiden/build/CMakeFiles/old.dir/deck.cpp.o"
+  "/home/tsnyder/oop/old-maiden/main.cpp" "/home/tsnyder/oop/old-maiden/build/CMakeFiles/old.dir/main.cpp.o"
+  "/home/tsnyder/oop/old-maiden/player.cpp" "/home/tsnyder/oop/old-maiden/build/CMakeFiles/old.dir/player.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

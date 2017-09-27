@@ -65,6 +65,8 @@ vector
 -
 iostream
 -
+algorithm
+-
 card.hpp
 /home/tsnyder/oop/old-maiden/card.hpp
 

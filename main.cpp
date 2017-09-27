@@ -8,12 +8,9 @@
 #include <random>
 
 
-void dealDeck(Deck& deck, std::vector<Player>& players);
+void dealDeck(Deck& deck, std::vector<Player>& players); 
 
-void dp(std::string a)
-{
-	std::cout << a;
-}
+
 
 
 
@@ -53,11 +50,9 @@ void dealDeck(Deck& deck, std::vector<Player>& players)
 		pit->push_back(*dit); // dereferences dit (a card) and pushes it to the hand of a player
 		pit++; // Increments pit to the next player
 
-		// If the last player "around the table" is reached, the iterator goes back to the first
+
 		if(pit == players.end())
-		{
 			pit = players.begin();
-		}
 	}
 }
 

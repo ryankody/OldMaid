@@ -18,7 +18,6 @@ enum Rank
 	Jack,
 	Queen,
 	King,
-	Joker,
 };
 
 enum Suit

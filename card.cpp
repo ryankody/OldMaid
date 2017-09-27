@@ -78,9 +78,6 @@ std::ostream& operator<<(std::ostream& os, Rank r)
 	case King:
 		os << 'K';
 		break;
-	case Joker:
-		os << 'O';
-		break;
 	} 
 	return os;
 }

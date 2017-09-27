@@ -60,9 +60,8 @@ Deck makeStandardDeck()
     {Nine, Diamonds},
     {Ten, Diamonds},
     {Jack, Diamonds},
-    {Queen, Diamonds},
+    //{Queen, Diamonds},
     {King, Diamonds},
-    {Joker, Clubs},
   };
 
   return d;

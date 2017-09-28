@@ -14,6 +14,7 @@ CMakeFiles/old.dir/main.cpp.o: ../main.cpp
 CMakeFiles/old.dir/main.cpp.o: ../player.hpp
 
 CMakeFiles/old.dir/player.cpp.o: ../card.hpp
+CMakeFiles/old.dir/player.cpp.o: ../deck.hpp
 CMakeFiles/old.dir/player.cpp.o: ../player.cpp
 CMakeFiles/old.dir/player.cpp.o: ../player.hpp
 

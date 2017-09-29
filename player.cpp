@@ -67,3 +67,14 @@ void dealDeck(Deck& deck, std::vector<Player>& players)
 			pit = players.begin();
 	}
 }
+
+void takeCard(Player& p1, Player& p2, int cardIndex)
+{
+	Card c;
+
+	c = p2[cardIndex];
+
+	p2.erase(p2.begin() + cardIndex);
+
+	addCard(p1, c);
+}

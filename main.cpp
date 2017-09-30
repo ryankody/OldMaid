@@ -4,12 +4,12 @@
 
 #include <iostream>
 #include <algorithm>
-#include <queue>
+#include <deque>
 #include <string>
 #include <random>
 
 int randomIndex(int upperBound);
-void printQueue(std::queue<Player> q, int numPlayers);
+void printQueue(std::deque<Player> q, int numPlayers);
 
 
 std::random_device rng;
@@ -18,63 +18,52 @@ std::minstd_rand prng;
 
 int main()
 {
-	int numPlayers = 4;
-	prng.seed(rng());
 
+	int numPlayers = 4;
+	int numTurns = 0;
+	Player pCopy;
+
+	prng.seed(rng());
 
 	Deck deck {makeStandardDeck()};
 	std::vector<Player> players(numPlayers);
 
-
 	shuffleDeck(deck);
 	dealDeck(deck, players);
 
-
-
-	std::queue<Player> gameQueue;
+	std::deque<Player> gameQueue;
 	for(std::vector<Player>::iterator it = players.begin(); it != players.end(); it++)
 	{
 		removeInitialPairs(*it);
-		gameQueue.push(*it);
+		gameQueue.push_back(*it);
 	}
 
 
-	Player pCopy;
 
-	while(gameQueue.size() > 1) // Game ends when only one player is left
+	while(gameQueue.size() > 1)
 	{
-		// Make copy of p(n)
+		numTurns++;
+
 		pCopy = gameQueue.front();
-
-		// Pop p(n) from gameQueue
-		gameQueue.pop();
-
-		// p(n - 1) offers deck to p(n)
+		gameQueue.pop_front();
 
 		int index = randomIndex(gameQueue.back().size());
-		takeCard(pCopy, gameQueue.back(), index);
 
-		// Check for pairs... delete pairs if found
+		takeCard(pCopy, gameQueue.back(), index);
+		if(gameQueue.back().size() == 0)
+		{
+			gameQueue.pop_back();
+		}
 
 		removePair(pCopy);
 
-		// if no card, do not requeue
-		if(pCopy.size() != 0)
+		if(pCopy.size() > 0)
 		{
-			// otherwise, push p(n) to back
-			gameQueue.push(pCopy);
+			gameQueue.push_back(pCopy);
 		}
-
-
-		std::cout << '\n';
-		printQueue(gameQueue, gameQueue.size());
-		std::cout << gameQueue.size();
-
-		
-		// next
 	}
 
-
+	std::cout << numTurns << std::endl;
 	return 0;
 }
 
@@ -87,15 +76,6 @@ int randomIndex(int upperBound)
 } 
 
 
-void printQueue(std::queue<Player> q, int numPlayers)
-{
-	for(int i = 0; i < numPlayers; i++)
-	{
-		std::cout << "Player " << i << ": ";
-		printPlayer(q.front());
-		q.pop();
-	}
-}
 
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tsnyder/oop/old-maiden
+CMAKE_SOURCE_DIR = /mnt/c/Users/snyde/wsl/oop/old-maiden
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tsnyder/oop/old-maiden/build
+CMAKE_BINARY_DIR = /mnt/c/Users/snyde/wsl/oop/old-maiden/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/old.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/old.dir/flags.make
 
 CMakeFiles/old.dir/main.cpp.o: CMakeFiles/old.dir/flags.make
 CMakeFiles/old.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsnyder/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/old.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/main.cpp.o -c /home/tsnyder/oop/old-maiden/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/old.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/main.cpp.o -c /mnt/c/Users/snyde/wsl/oop/old-maiden/main.cpp
 
 CMakeFiles/old.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/old.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsnyder/oop/old-maiden/main.cpp > CMakeFiles/old.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/snyde/wsl/oop/old-maiden/main.cpp > CMakeFiles/old.dir/main.cpp.i
 
 CMakeFiles/old.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/old.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsnyder/oop/old-maiden/main.cpp -o CMakeFiles/old.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/snyde/wsl/oop/old-maiden/main.cpp -o CMakeFiles/old.dir/main.cpp.s
 
 CMakeFiles/old.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/old.dir/main.cpp.o.provides.build: CMakeFiles/old.dir/main.cpp.o
 
 CMakeFiles/old.dir/card.cpp.o: CMakeFiles/old.dir/flags.make
 CMakeFiles/old.dir/card.cpp.o: ../card.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsnyder/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/old.dir/card.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/card.cpp.o -c /home/tsnyder/oop/old-maiden/card.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/old.dir/card.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/card.cpp.o -c /mnt/c/Users/snyde/wsl/oop/old-maiden/card.cpp
 
 CMakeFiles/old.dir/card.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/old.dir/card.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsnyder/oop/old-maiden/card.cpp > CMakeFiles/old.dir/card.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/snyde/wsl/oop/old-maiden/card.cpp > CMakeFiles/old.dir/card.cpp.i
 
 CMakeFiles/old.dir/card.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/old.dir/card.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsnyder/oop/old-maiden/card.cpp -o CMakeFiles/old.dir/card.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/snyde/wsl/oop/old-maiden/card.cpp -o CMakeFiles/old.dir/card.cpp.s
 
 CMakeFiles/old.dir/card.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/old.dir/card.cpp.o.provides.build: CMakeFiles/old.dir/card.cpp.o
 
 CMakeFiles/old.dir/deck.cpp.o: CMakeFiles/old.dir/flags.make
 CMakeFiles/old.dir/deck.cpp.o: ../deck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsnyder/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/old.dir/deck.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/deck.cpp.o -c /home/tsnyder/oop/old-maiden/deck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/old.dir/deck.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/deck.cpp.o -c /mnt/c/Users/snyde/wsl/oop/old-maiden/deck.cpp
 
 CMakeFiles/old.dir/deck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/old.dir/deck.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsnyder/oop/old-maiden/deck.cpp > CMakeFiles/old.dir/deck.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/snyde/wsl/oop/old-maiden/deck.cpp > CMakeFiles/old.dir/deck.cpp.i
 
 CMakeFiles/old.dir/deck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/old.dir/deck.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsnyder/oop/old-maiden/deck.cpp -o CMakeFiles/old.dir/deck.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/snyde/wsl/oop/old-maiden/deck.cpp -o CMakeFiles/old.dir/deck.cpp.s
 
 CMakeFiles/old.dir/deck.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/old.dir/deck.cpp.o.provides.build: CMakeFiles/old.dir/deck.cpp.o
 
 CMakeFiles/old.dir/player.cpp.o: CMakeFiles/old.dir/flags.make
 CMakeFiles/old.dir/player.cpp.o: ../player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tsnyder/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/old.dir/player.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/player.cpp.o -c /home/tsnyder/oop/old-maiden/player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/old.dir/player.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/old.dir/player.cpp.o -c /mnt/c/Users/snyde/wsl/oop/old-maiden/player.cpp
 
 CMakeFiles/old.dir/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/old.dir/player.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tsnyder/oop/old-maiden/player.cpp > CMakeFiles/old.dir/player.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/snyde/wsl/oop/old-maiden/player.cpp > CMakeFiles/old.dir/player.cpp.i
 
 CMakeFiles/old.dir/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/old.dir/player.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tsnyder/oop/old-maiden/player.cpp -o CMakeFiles/old.dir/player.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/snyde/wsl/oop/old-maiden/player.cpp -o CMakeFiles/old.dir/player.cpp.s
 
 CMakeFiles/old.dir/player.cpp.o.requires:
 
@@ -169,7 +169,7 @@ old: CMakeFiles/old.dir/deck.cpp.o
 old: CMakeFiles/old.dir/player.cpp.o
 old: CMakeFiles/old.dir/build.make
 old: CMakeFiles/old.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tsnyder/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable old"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable old"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/old.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/old.dir/clean:
 .PHONY : CMakeFiles/old.dir/clean
 
 CMakeFiles/old.dir/depend:
-	cd /home/tsnyder/oop/old-maiden/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tsnyder/oop/old-maiden /home/tsnyder/oop/old-maiden /home/tsnyder/oop/old-maiden/build /home/tsnyder/oop/old-maiden/build /home/tsnyder/oop/old-maiden/build/CMakeFiles/old.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/snyde/wsl/oop/old-maiden/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/snyde/wsl/oop/old-maiden /mnt/c/Users/snyde/wsl/oop/old-maiden /mnt/c/Users/snyde/wsl/oop/old-maiden/build /mnt/c/Users/snyde/wsl/oop/old-maiden/build /mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles/old.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/old.dir/depend
 

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/tsnyder/oop/old-maiden/card.cpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/card.cpp
 card.hpp
-/home/tsnyder/oop/old-maiden/card.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/card.hpp
 iostream
 -
 
-/home/tsnyder/oop/old-maiden/card.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/card.hpp
 iosfwd
 -
 
-/home/tsnyder/oop/old-maiden/deck.cpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/deck.cpp
 deck.hpp
-/home/tsnyder/oop/old-maiden/deck.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/deck.hpp
 iostream
 -
 random
@@ -26,7 +26,7 @@ random
 algorithm
 -
 
-/home/tsnyder/oop/old-maiden/deck.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/deck.hpp
 iostream
 -
 vector
@@ -36,31 +36,31 @@ random
 algorithm
 -
 card.hpp
-/home/tsnyder/oop/old-maiden/card.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/card.hpp
 
-/home/tsnyder/oop/old-maiden/main.cpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/main.cpp
 card.hpp
-/home/tsnyder/oop/old-maiden/card.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/card.hpp
 deck.hpp
-/home/tsnyder/oop/old-maiden/deck.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/deck.hpp
 player.hpp
-/home/tsnyder/oop/old-maiden/player.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/player.hpp
 iostream
 -
 algorithm
 -
-queue
+deque
 -
 string
 -
 random
 -
 
-/home/tsnyder/oop/old-maiden/player.cpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/player.cpp
 player.hpp
-/home/tsnyder/oop/old-maiden/player.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/player.hpp
 
-/home/tsnyder/oop/old-maiden/player.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/player.hpp
 vector
 -
 iostream
@@ -68,7 +68,7 @@ iostream
 algorithm
 -
 card.hpp
-/home/tsnyder/oop/old-maiden/card.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/card.hpp
 deck.hpp
-/home/tsnyder/oop/old-maiden/deck.hpp
+/mnt/c/Users/snyde/wsl/oop/old-maiden/deck.hpp
 

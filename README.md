@@ -2,7 +2,7 @@ Old-Maid C++ Implementation
 
 Contributors:
 
-	- Brandon Hawk
+	- Ben Hawk
 
 	- Ryan Kody
 

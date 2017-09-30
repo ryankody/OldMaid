@@ -51,22 +51,6 @@ void addCard(Player& p, Card c)
 	std::sort(p.begin(), p.end());
 }
 
-void dealDeck(Deck& deck, std::vector<Player>& players)
-{
-	//Iterator to navigate player hands (initialized to the first player)
-	std::vector<Player>::iterator pit {players.begin()};
-
-	// Loops through deck, handing out a card to one of n unique players each iteration
-	for(Deck::iterator dit = deck.begin(); dit != deck.end(); dit++)
-	{
-		addCard(*pit, *dit); // *pit == a player, *dit == a card
-		pit++; // Increments pit to the next player
-
-
-		if(pit == players.end())
-			pit = players.begin();
-	}
-}
 
 void takeCard(Player& p1, Player& p2, int cardIndex)
 {

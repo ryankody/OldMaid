@@ -10,7 +10,7 @@
 
 int randomIndex(int upperBound);
 void printQueue(std::deque<Player> q, int numPlayers);
-
+void dealDeck(Deck& deck, std::vector<Player>& players); 
 
 std::random_device rng;
 std::minstd_rand prng;
@@ -18,16 +18,14 @@ std::minstd_rand prng;
 
 int main()
 {
-
 	int numPlayers = 4;
-	int numTurns = 0;
 	Player pCopy;
-
-	prng.seed(rng());
 
 	Deck deck {makeStandardDeck()};
 	std::vector<Player> players(numPlayers);
 
+	prng.seed(rng());
+	
 	shuffleDeck(deck);
 	dealDeck(deck, players);
 
@@ -42,28 +40,21 @@ int main()
 
 	while(gameQueue.size() > 1)
 	{
-		numTurns++;
-
 		pCopy = gameQueue.front();
 		gameQueue.pop_front();
 
 		int index = randomIndex(gameQueue.back().size());
-
 		takeCard(pCopy, gameQueue.back(), index);
+
 		if(gameQueue.back().size() == 0)
-		{
 			gameQueue.pop_back();
-		}
 
 		removePair(pCopy);
 
 		if(pCopy.size() > 0)
-		{
 			gameQueue.push_back(pCopy);
-		}
 	}
 
-	std::cout << numTurns << std::endl;
 	return 0;
 }
 
@@ -74,6 +65,23 @@ int randomIndex(int upperBound)
 
 	return d(prng);
 } 
+
+void dealDeck(Deck& deck, std::vector<Player>& players)
+{
+	//Iterator to navigate player hands (initialized to the first player)
+	std::vector<Player>::iterator pit {players.begin()};
+
+	// Loops through deck, handing out a card to one of n unique players each iteration
+	for(Deck::iterator dit = deck.begin(); dit != deck.end(); dit++)
+	{
+		addCard(*pit, *dit); // *pit == a player, *dit == a card
+		pit++; // Increments pit to the next player
+
+
+		if(pit == players.end())
+			pit = players.begin();
+	}
+}
 
 
 

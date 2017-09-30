@@ -24,8 +24,7 @@ bool pairPresent(Player& p);
 // Appends card to and sorts player
 void addCard(Player& p, Card c);
 
-// Deals deck old-maiden style. Unequally-sized hands legal in game
-void dealDeck(Deck& deck, std::vector<Player>& players); 
+
 
 void takeCard(Player& p1, Player& p2, int cardIndex);
 

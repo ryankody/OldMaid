@@ -1,3 +1,0 @@
-/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/snyde/wsl/oop/old-maiden/build/CMakeFiles/old.dir

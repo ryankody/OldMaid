@@ -25,7 +25,7 @@ int main()
 	std::vector<Player> players(numPlayers);
 
 	prng.seed(rng());
-	
+
 	shuffleDeck(deck);
 	dealDeck(deck, players);
 
@@ -35,7 +35,6 @@ int main()
 		removeInitialPairs(*it);
 		gameQueue.push_back(*it);
 	}
-
 
 
 	while(gameQueue.size() > 1)

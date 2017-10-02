@@ -42,8 +42,7 @@ int main()
 		pCopy = gameQueue.front();
 		gameQueue.pop_front();
 
-		int index = randomIndex(gameQueue.back().size());
-		takeCard(pCopy, gameQueue.back(), index);
+		takeCard(pCopy, gameQueue.back(), randomIndex(gameQueue.back().size()));
 
 		if(gameQueue.back().size() == 0)
 			gameQueue.pop_back();
@@ -75,7 +74,6 @@ void dealDeck(Deck& deck, std::vector<Player>& players)
 	{
 		addCard(*pit, *dit); // *pit == a player, *dit == a card
 		pit++; // Increments pit to the next player
-
 
 		if(pit == players.end())
 			pit = players.begin();
